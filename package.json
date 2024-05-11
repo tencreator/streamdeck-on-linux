@@ -9,8 +9,14 @@
     "test": "npx ts-node ./src/index.ts",
     "dev": "nodemon ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "streamdeck",
+    "elgato",
+    "linux",
+    "node",
+    "typescript"
+  ],
+  "author": "TenCreator",
   "license": "ISC",
   "dependencies": {
     "@elgato-stream-deck/node": "^6.2.0",

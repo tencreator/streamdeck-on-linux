@@ -3,6 +3,7 @@ import path from 'path'
 import fs from 'fs'
 import ws from 'ws'
 import { Extention, KeyLayout } from "./types"
+
 const files: string[] = fs.readdirSync(path.join(__dirname, 'extentions'))
 
 let exentions: Extention[] = []
